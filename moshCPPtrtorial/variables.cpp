@@ -1,6 +1,10 @@
 #include <iostream>
 
 int main() {
-    std :: cout << "hello world\n";
+    
+    int a = 100; 
+    double num2 = 3.5;
+    std :: cout << a << '\n';
+    std::cout << num2 <<'\n';
     return 0;
 }
