@@ -1,0 +1,36 @@
+// {
+//     "configurations": [
+//         {
+//             "name": "Linux",
+//             "includePath": [
+//                 "${workspaceFolder}/**"
+//             ],
+//             "defines": [],
+//             "compilerPath": "/usr/bin/clang",
+//             "cStandard": "c17",
+//             "cppStandard": "c++14",
+//             "intelliSenseMode": "linux-clang-x64"
+//         }
+//     ],
+//     "version": 4
+// }
+
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include/c++/9.3.0",                // Adjust to your GCC version
+                "/usr/include/x86_64-linux-gnu/c++/9.3.0", // Adjust to your GCC version
+                "/usr/include",                          // Standard includes
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++", // Use g++ instead of clang
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64" // Use gcc instead of clang
+        }
+    ],
+    "version": 4
+}
