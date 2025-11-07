@@ -1,54 +1,29 @@
-#include <bits/stdc++.h>
+#include <stdio.h>
 
 int main() {
     long long t;
-    scanf("%lld",&t);
-    while (t--)
-    {
-        int num;
-        char c;
-        int sx_c=0;
-        int wt_c = 0;
-        bool ht=false;
-        int ball;
-        for (int i = 0; i < 6; i++)
-        {
-            if ((scanf("%d",&num)==1))
-            
-            {
-                wt_c=0;
-                if (num==6)
-                {
-                    sx_c+=1;
-                } else {
-                    sx_c=0;
-                }
-
-                if (sx_c==3)
-                {
-                    ht=true;
-                }
-                
-                
-            } else if (scanf("%c",&c)==1)
-            {
-                wt_c+=1;
-                if (wt_c==3)
-                {
-                    ht=true;
-                }
-                
-            } 
-            
+    scanf("%lld", &t);  
+    while (t--) {
+        char balls[6];  
+        for (int i = 0; i < 6; i++) {
+            scanf(" %c", &balls[i]);  
         }
-
-        if (ht)
-        {
+        
+        int hattrick = 0;  
+        
+        
+        for (int i = 0; i < 4; i++) {  
+            if (balls[i] == 'W' && balls[i + 1] == 'W' && balls[i + 2] == 'W') {
+                hattrick = 1;  
+                break; 
+            }
+        }
+        
+        if (hattrick) {
             printf("YES\n");
         } else {
             printf("NO\n");
         }
-  
     }
     
     return 0;

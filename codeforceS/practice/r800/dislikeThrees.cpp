@@ -3,27 +3,27 @@
 int main() {
     int t;
     scanf("%d",&t);
-    
-    int stArr[1000];
-    int posCount = 0;
-    int i = 1;
-    while (posCount<=1000)
+    int count = 0,i=1;
+    int arr[1000];
+    while (count <=1000)
     {
         if (i%3!=0 && i%10!=3)
         {
-            stArr[posCount] = i;
-            posCount+=1;
+            arr[count] = i;
+            count++;
         }
         i++;
+        
     }
-
+    
     while (t--)
     {
+        /* code */
         int k;
         scanf("%d",&k);
-        printf("%d\n",stArr[k-1]);
+        printf("%d\n",arr[k-1]);
+
     }
-    // this is my code 
     
     return 0;
 }

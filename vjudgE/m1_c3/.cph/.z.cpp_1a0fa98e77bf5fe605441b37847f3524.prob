@@ -1,0 +1,1 @@
+{"name":"Local: z","url":"/home/rifat/Documents/cspDSA/vjudgE/m1_c3/z.cpp","tests":[{"id":1762226073285,"input":"3\n3 2 5 6 1 1\n4 4 5 5 4 4\n6 6 6 6 6 1\n","output":"Bob\nTie\nAlice"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rifat/Documents/cspDSA/vjudgE/m1_c3/z.cpp","group":"local","local":true}

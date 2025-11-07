@@ -1,0 +1,1 @@
+{"name":"Local: wolfDown","url":"/home/rifat/Documents/cspDSA/codechef/contest/starter211_div4/wolfDown.cpp","tests":[{"id":1762354919585,"input":"4\n3\n000\n2\n11\n5\n10100\n4\n0100","output":"3\n0\n0\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rifat/Documents/cspDSA/codechef/contest/starter211_div4/wolfDown.cpp","group":"local","local":true}
