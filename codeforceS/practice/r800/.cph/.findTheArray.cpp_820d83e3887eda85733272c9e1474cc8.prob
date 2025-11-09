@@ -1,0 +1,1 @@
+{"name":"Local: findTheArray","url":"/home/rifat/Documents/cspDSA/codeforceS/practice/r800/findTheArray.cpp","tests":[{"id":1762585893090,"input":"4\n1\n8\n7\n42\n","output":"1\n3\n3\n7\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rifat/Documents/cspDSA/codeforceS/practice/r800/findTheArray.cpp","group":"local","local":true}
