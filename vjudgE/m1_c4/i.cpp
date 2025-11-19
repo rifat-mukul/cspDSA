@@ -31,39 +31,24 @@ int main() {
             if (count<=9)
             {
                 /* code */
-                count+=(i*10);
+                count=count+(i*10);
                 dayCount++;
             } else {
-                if (count <11)
-                {
-                    count++;
-                } else {
+                
                     int first=count%10;
                     int temp=count-first;
                     int second=temp/10;
-                    if (i<=9)
+                    if (first!=second)
                     {
                         /* code */
-                        if (i==first && i==second)
-                        {
-                            /* code */
-                            dayCount++;
-                            break;
-                        } else {
-                            if (first==second)
-                            {
-                                /* code */
-                                dayCount++;
-                                break;
-                            }
-                            
-                        }
-                        
+                        break;
+                    } else {
+                        dayCount++;
+                        break;
                     }
-                    
-                }
-                
+                           
             }
+            printf("%d === %d == %d \n",i,arr[i-1],count);
             // printf("%d  ",count);
             
             
@@ -74,7 +59,7 @@ int main() {
     }
     // printf("\n");
 
-    printf("%d",dayCount);
+    // printf("%d",dayCount);
     
     
     return 0;
