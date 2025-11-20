@@ -1,0 +1,1 @@
+{"name":"Local: collatzConjecture","url":"/home/rifat/Documents/cspDSA/codeforceS/practice/r800/collatzConjecture.cpp","tests":[{"id":1763583414167,"input":"3\n1 4\n1 5\n5 4\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rifat/Documents/cspDSA/codeforceS/practice/r800/collatzConjecture.cpp","group":"local","local":true}

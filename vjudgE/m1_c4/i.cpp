@@ -1,5 +1,15 @@
 #include <bits/stdc++.h>
 
+bool isRepdigit(int x) {
+    int d = x % 10;
+    while (x > 0) {
+        if (x % 10 != d) return false;
+        x /= 10;
+    }
+    return true;
+}
+
+
 int main() {
 
     int n;
@@ -22,44 +32,25 @@ int main() {
     
     int dayCount=0;
 
-    for (int i = 1; i < n+1; i++)
+    for (int i = 0; i <= n; i++)
     {
-        /* code */
-        int count=i;
-        while (count<=arr[i-1])
+        if (isRepdigit(arr[i]))
         {
-            if (count<=9)
+            for (int j = 1; j <= arr[i]; j++)
             {
                 /* code */
-                count=count+(i*10);
-                dayCount++;
-            } else {
+                if (isRepdigit(j))
+                {
+                    dayCount++;
+                }
                 
-                    int first=count%10;
-                    int temp=count-first;
-                    int second=temp/10;
-                    if (first!=second)
-                    {
-                        /* code */
-                        break;
-                    } else {
-                        dayCount++;
-                        break;
-                    }
-                           
             }
-            printf("%d === %d == %d \n",i,arr[i-1],count);
-            // printf("%d  ",count);
             
-            
-
         }
-        // printf("%d  ",dayCount);
         
     }
-    // printf("\n");
 
-    // printf("%d",dayCount);
+    printf("%d",dayCount);
     
     
     return 0;
