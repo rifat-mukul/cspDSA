@@ -1,0 +1,1 @@
+{"name":"Local: e","url":"/home/rifat/Documents/cspDSA/vjudgE/m1_c5/e.cpp","tests":[{"id":1764167787657,"input":"4 5\n1 3 2 4 5\n4 2 7 6 5\n9 2 3 5 1\n7 8 1 7 2\n2 2 3 4\n","output":"25\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rifat/Documents/cspDSA/vjudgE/m1_c5/e.cpp","group":"local","local":true}
