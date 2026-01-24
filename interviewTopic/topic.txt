@@ -1,0 +1,257 @@
+Here are the most common DSA topics that are frequently asked in software company interviews. These topics are essential for a solid foundation in problem-solving and technical interviews:
+
+1. Arrays and Strings
+
+Array Manipulation:
+
+Find the maximum/minimum element in an array.
+
+Reverse an array.
+
+Rotate an array.
+
+Move zeros to the end.
+
+Subarray sum (Kadane's Algorithm for maximum subarray sum).
+
+String Manipulation:
+
+Check if a string is a palindrome.
+
+Reverse a string.
+
+Find the first non-repeating character.
+
+Anagram check.
+
+String compression (e.g., "aabcc" becomes "a2b1c2").
+
+Longest substring without repeating characters.
+
+Find all substrings of a string.
+
+2. Linked Lists
+
+Basic Operations:
+
+Reverse a linked list.
+
+Detect and remove loops in a linked list (Floyd’s cycle-finding algorithm).
+
+Merge two sorted linked lists.
+
+Find the middle element of a linked list.
+
+Find the nth node from the end.
+
+Palindrome check for a linked list.
+
+3. Stacks and Queues
+
+Stack Problems:
+
+Implement a stack using arrays or linked list.
+
+Balanced parentheses problem (valid expression).
+
+Next greater element.
+
+Reverse a string using a stack.
+
+Evaluate postfix/prefix expressions.
+
+Queue Problems:
+
+Implement a queue using two stacks.
+
+Circular Queue.
+
+Implement a priority queue (min-heap/max-heap).
+
+Sliding window maximum.
+
+4. Trees (Binary Trees and Binary Search Trees)
+
+Binary Tree Problems:
+
+Preorder, Inorder, and Postorder traversal.
+
+Height of a binary tree.
+
+Check if a tree is balanced.
+
+Diameter of a tree.
+
+Lowest common ancestor (LCA) in a binary tree.
+
+Binary Search Tree (BST) Problems:
+
+Insert, delete, and search in a BST.
+
+Find the minimum and maximum in a BST.
+
+Validate if a tree is a BST.
+
+Find kth smallest/largest element in a BST.
+
+5. Heaps (Priority Queues)
+
+Min Heap and Max Heap:
+
+Implement a heap from scratch.
+
+Heap Sort.
+
+Kth largest/smallest element in an array.
+
+Merge k sorted lists.
+
+Top K frequent elements.
+
+6. Graphs
+
+Graph Representations:
+
+Adjacency matrix vs. adjacency list.
+
+BFS (Breadth-First Search).
+
+DFS (Depth-First Search).
+
+Graph Traversals:
+
+Find the shortest path (BFS for unweighted, Dijkstra’s for weighted).
+
+Detect a cycle in an undirected/directed graph.
+
+Topological sorting.
+
+Strongly connected components (Kosaraju’s algorithm).
+
+Shortest path in a weighted graph (Dijkstra, Bellman-Ford).
+
+Find connected components in a graph.
+
+7. Dynamic Programming (DP)
+
+Basic Dynamic Programming Problems:
+
+Fibonacci sequence (Memoization vs. Tabulation).
+
+Knapsack problem (0/1 Knapsack).
+
+Longest Common Subsequence (LCS).
+
+Longest Increasing Subsequence (LIS).
+
+Coin change problem.
+
+Matrix Chain Multiplication.
+
+Edit Distance (Levenshtein distance).
+
+Minimum Path Sum in a matrix.
+
+8. Greedy Algorithms
+
+Greedy Approach Problems:
+
+Activity Selection Problem.
+
+Fractional Knapsack.
+
+Huffman encoding.
+
+Job scheduling with deadlines.
+
+Interval scheduling maximization.
+
+9. Backtracking
+
+Backtracking Problems:
+
+N-Queens Problem.
+
+Sudoku Solver.
+
+Generate all subsets of a set.
+
+Find all possible combinations of a sum (Subset Sum Problem).
+
+Permutations and combinations.
+
+10. Bit Manipulation
+
+Bitwise Operators Problems:
+
+Count the number of set bits in an integer.
+
+Check if a number is a power of two.
+
+Find the single non-repeating element in an array.
+
+Swap two numbers without using a temporary variable.
+
+Find the two non-repeating elements in an array.
+
+11. Hashing
+
+Hash Table Problems:
+
+Find the first non-repeating character in a string.
+
+Two-sum problem.
+
+Find all pairs with a given sum.
+
+Group anagrams.
+
+Subarray with sum 0.
+
+12. Sorting and Searching
+
+Sorting Algorithms:
+
+Quick Sort.
+
+Merge Sort.
+
+Heap Sort.
+
+Bubble Sort, Insertion Sort, Selection Sort.
+
+Counting Sort, Radix Sort (for specific cases).
+
+Binary Search:
+
+Binary Search on sorted arrays.
+
+Find the first/last occurrence of an element.
+
+Search in rotated sorted array.
+
+Find the square root of a number using binary search.
+
+13. Sliding Window
+
+Sliding Window Problems:
+
+Maximum sum subarray of size k.
+
+Longest substring with k distinct characters.
+
+Substring with exactly k distinct characters.
+
+Find all anagrams in a string.
+
+14. Divide and Conquer
+
+Divide and Conquer Problems:
+
+Merge Sort.
+
+Quick Sort.
+
+Binary Search.
+
+Closest pair of points.
