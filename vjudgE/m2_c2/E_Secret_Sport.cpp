@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    long long t;
+    cin >> t;
+    while (t--)
+    {
+        /* code */
+        int n;
+        cin >> n;
+        string ch;
+        cin >> ch;
+        cout << ch[n-1] << "\n";
+    }
+    
+    return 0;
+}
